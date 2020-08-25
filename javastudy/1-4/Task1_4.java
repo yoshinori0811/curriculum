@@ -1,3 +1,4 @@
+
 /**
  * Task1-4: 課題内容
  *
@@ -8,6 +9,11 @@
 public class Task1_4 {
     // 定数（条件）
     // ① 名前とパスワードの定数を定義してください。
+
+     private static final String NAME = "aaaaa";
+     private static final String PASS = "pass";
+
+
     // 補足:
     //   定数は②〜⑤で使い回すために定義しておきます。
     //   final修飾子を付与すると、変数（動的に変わる値）ではなく、定数（変更不可な定まった値）となります。
@@ -21,22 +27,22 @@ public class Task1_4 {
     public static void main(String[] args) {
         // 以下の変数「name（名前）」「pass（パスワード）」を使用して、②〜⑤の条件を満たす処理を記述してください。
         // 名前とパスワードは画面からの入力値だと想定してみましょう。
-         final String name = "alice";
-         final String pass = "pass";
+          String name = "alice";
+          String pass = "pass";
 
         // ② 名前が「 alice 」、パスワードが「 pass 」であった場合、「 ログイン成功です 」と出力してください。
 
-         if(name.equals("alice") && pass.equals("pass")) {
+         if(name.equals(NAME) && pass.equals(PASS)) {
             
             System.out.println(CONST_MSG_SUCCESS);
     
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
-        }else if(name.equals("alice")) {
+        }else if(name.equals(NAME)) {
 
             System.out.println(CONST_MSG_ERROR_PASS);
         
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
-        }else if(pass.equals("pass")) {
+        }else if(pass.equals(PASS)) {
 
             System.out.println(CONST_MSG_ERROR_NAME);
         
