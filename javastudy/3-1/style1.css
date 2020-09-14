@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    width: 400px;
+}
+
+.header {
+   height: 100px;
+   width: 400px;
+   background-color: #141f40; 
+}
+
+/* flex-box仕様時 */
+
+/* .main-container {
+    height: 250px;
+    width: 400px;
+    display: flex;
+    
+}
+
+.left-container {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+}
+
+.right-container {
+    height: 250px;
+    width: 250px;
+    background-color: #8c2727;
+} */
+
+/* float仕様 */
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+/* float仕様 */
+
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+    clear: both;
+}
+
+@media screen and (max-width: 767px) {
+.body {
+    width: 250px;
+}
+.header {
+    width: 250px;
+}
+
+/* flex-box仕様 */
+
+/* .right-container {
+    width: 100px;
+} */
+
+.right {
+    width: 100px;
+    
+}
+
+.footer {
+    width: 250px;
+}
+
+}
+
+@media screen and (max-width: 479px) {
+.body {
+    width: 150px;
+}
+.header {
+    width: 150px;
+}
+
+/* flex-box仕様 */
+
+/* .main-container {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.right-container{
+    width: 150px;
+} */
+
+/* folat仕様 */
+.right {
+    width: 150px;
+    float:none;
+}
+.left {
+    float: none;
+}
+/* float仕様 */
+
+.footer {
+    width: 150px;
+}
+
+}

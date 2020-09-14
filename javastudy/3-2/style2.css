@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    width: 400px;
+    background-color: #141f40;
+}
+
+.main-container {
+    width: 400px;
+    height: 250px;
+    font-size: 0px;
+}
+
+.left-contents {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+.right-contents {
+    height: 250px;
+    width: 250px;
+    float: right;
+    
+}
+
+.top-section {
+    height: 150px;
+    width: 250px;
+}
+
+.left-contents {
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+}
+
+.up {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+
+.down {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+
+.right-cell {
+    width: 100px;
+    height: 150px;
+    float: right;
+    background-color: #ff9e6b;
+}
+
+.under-section {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+}
+
+@media screen and (max-width: 767px) {
+    
+.header {
+    width: 300px;
+}
+
+.main-container {
+    width: 300px;
+}
+
+.left-contents {
+    width: 100px;
+}
+
+.right-contents {
+    width: 200px;
+}
+
+.top-section {
+    width: 200px;
+}
+
+.left-cell {
+    width: 125px;
+}
+
+.up, .down {
+    width: 125px;
+}
+
+.right-cell {
+    width: 75px;
+}
+
+.under-section {
+    width: 200px;
+}
+
+.footer {
+    width: 300px;
+}
+}
+
+
+@media screen and (max-width: 479px) {
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header {
+    width: 150px;
+}
+
+.main-container {
+    width: 150px;
+    height: 450px;
+}
+
+.left-contents {
+    width: 150px;
+    height: 100px;
+}
+
+.right-contents {
+    width: 150px;
+    height: 350px;
+    
+}
+
+.top-section {
+    width: 150px;
+    height: 250px;
+}
+
+.left-cell {
+    width: 150px;
+}
+
+.up, .down {
+    width: 150px;
+}
+
+.right-cell {
+    width: 150px;
+    height: 100px;
+    
+}
+
+.under-section {
+    width: 150px;
+}
+
+.footer {
+    width: 150px;
+}
+
+}
