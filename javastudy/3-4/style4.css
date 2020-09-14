@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    height: 350px;
+    width: 150px;
+    float: left;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-right-style: dashed;
+    border-width: 2px;
+}
+
+.lc-top-contents {
+    height: 100px;
+    width: 148px;
+    background-color: #ffff66;
+}
+
+.lc-middle-contents {
+    height: 150px;
+    width: 148px;
+    background-color: #ff3333;   
+}
+
+.lc-under-contents {
+    height: 100px;
+    width: 148px;
+    background-color: #ff9966;   
+}
+
+.right-container {
+    height: 350px;
+    width: 200px;
+    /* 後で消す */
+    background-color: green;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.rc-top-contents {
+    height: 100px;
+    width: 200px;
+    background-color: #666666; 
+}
+
+.rc-middle-contents {
+    height: 150px;
+    width: 200px;
+    /* 後で消す */
+    background-color: blue;
+
+    display: flex;
+}
+
+.mc-left-cell {
+    height: 150px;
+    width: 100px;
+    background-color: #3366ff;
+}
+
+.mc-right-cell {
+    height: 150px;
+    width: 100px;
+    background-color: #669933;
+}
+
+.rc-under-contents {
+    height: 100px;
+    width: 200px;
+    /* 後で消す */
+    background-color: red;
+
+    display: flex;
+}
+
+.uc-left-cell {
+    height: 100px;
+    width: 100px;
+    background-color: #ffffcc;
+}
+
+.uc-right-cell {
+    height: 100px;
+    width: 100px;
+    background-color: #330066;
+}
